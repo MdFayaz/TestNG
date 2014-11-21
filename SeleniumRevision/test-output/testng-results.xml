@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SeleniumRevision" duration-ms="39" started-at="2014-11-19T11:37:11Z" finished-at="2014-11-19T11:37:11Z">
+    <groups>
+      <group name="CommonGroupTest">
+        <method signature="TestNGAnnotations.commonGroupTestMethod()[pri:0, instance:com.selenium.actions.TestNGAnnotations@1ba92bb]" name="commonGroupTestMethod" class="com.selenium.actions.TestNGAnnotations"/>
+        <method signature="TestNGAnnotations.testGroupTwo()[pri:0, instance:com.selenium.actions.TestNGAnnotations@1ba92bb]" name="testGroupTwo" class="com.selenium.actions.TestNGAnnotations"/>
+      </group> <!-- CommonGroupTest -->
+      <group name="GroupOneTest">
+        <method signature="TestNGAnnotations.anotherTestGroupOne()[pri:0, instance:com.selenium.actions.TestNGAnnotations@1ba92bb]" name="anotherTestGroupOne" class="com.selenium.actions.TestNGAnnotations"/>
+        <method signature="TestNGAnnotations.testGroupOne()[pri:0, instance:com.selenium.actions.TestNGAnnotations@1ba92bb]" name="testGroupOne" class="com.selenium.actions.TestNGAnnotations"/>
+      </group> <!-- GroupOneTest -->
+      <group name="GroupTwoTest">
+        <method signature="TestNGAnnotations.anotherTestGroupTwo()[pri:0, instance:com.selenium.actions.TestNGAnnotations@1ba92bb]" name="anotherTestGroupTwo" class="com.selenium.actions.TestNGAnnotations"/>
+        <method signature="TestNGAnnotations.testGroupTwo()[pri:0, instance:com.selenium.actions.TestNGAnnotations@1ba92bb]" name="testGroupTwo" class="com.selenium.actions.TestNGAnnotations"/>
+      </group> <!-- GroupTwoTest -->
+    </groups>
+    <test name="LoginPageTest" duration-ms="22" started-at="2014-11-19T11:37:11Z" finished-at="2014-11-19T11:37:11Z">
+      <class name="com.selenium.actions.TestNGAnnotations">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.selenium.actions.TestNGAnnotations@1ba92bb]" name="beforeTest" is-config="true" duration-ms="0" started-at="2014-11-19T17:07:11Z" finished-at="2014-11-19T17:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="anotherTestGroupOne()[pri:0, instance:com.selenium.actions.TestNGAnnotations@1ba92bb]" name="anotherTestGroupOne" duration-ms="8" started-at="2014-11-19T17:07:11Z" finished-at="2014-11-19T17:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anotherTestGroupOne -->
+        <test-method status="PASS" signature="anotherTestGroupTwo()[pri:0, instance:com.selenium.actions.TestNGAnnotations@1ba92bb]" name="anotherTestGroupTwo" duration-ms="1" started-at="2014-11-19T17:07:11Z" finished-at="2014-11-19T17:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- anotherTestGroupTwo -->
+        <test-method status="PASS" signature="commonGroupTestMethod()[pri:0, instance:com.selenium.actions.TestNGAnnotations@1ba92bb]" name="commonGroupTestMethod" duration-ms="1" started-at="2014-11-19T17:07:11Z" finished-at="2014-11-19T17:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commonGroupTestMethod -->
+        <test-method status="PASS" signature="testGroupOne()[pri:0, instance:com.selenium.actions.TestNGAnnotations@1ba92bb]" name="testGroupOne" duration-ms="0" started-at="2014-11-19T17:07:11Z" finished-at="2014-11-19T17:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGroupOne -->
+        <test-method status="PASS" signature="testInvocationCount()[pri:0, instance:com.selenium.actions.TestNGAnnotations@1ba92bb]" name="testInvocationCount" duration-ms="0" started-at="2014-11-19T17:07:11Z" description="This is a testInvocationCount method" finished-at="2014-11-19T17:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvocationCount -->
+        <test-method status="PASS" signature="testInvocationCount()[pri:0, instance:com.selenium.actions.TestNGAnnotations@1ba92bb]" name="testInvocationCount" duration-ms="0" started-at="2014-11-19T17:07:11Z" description="This is a testInvocationCount method" finished-at="2014-11-19T17:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvocationCount -->
+        <test-method status="PASS" signature="testInvocationCount()[pri:0, instance:com.selenium.actions.TestNGAnnotations@1ba92bb]" name="testInvocationCount" duration-ms="1" started-at="2014-11-19T17:07:11Z" description="This is a testInvocationCount method" finished-at="2014-11-19T17:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvocationCount -->
+        <test-method status="PASS" signature="testGroupTwo()[pri:0, instance:com.selenium.actions.TestNGAnnotations@1ba92bb]" name="testGroupTwo" duration-ms="0" started-at="2014-11-19T17:07:11Z" finished-at="2014-11-19T17:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGroupTwo -->
+        <test-method status="PASS" signature="testLoginPage()[pri:0, instance:com.selenium.actions.TestNGAnnotations@1ba92bb]" name="testLoginPage" duration-ms="0" started-at="2014-11-19T17:07:11Z" description="This is a testLoginPage method" finished-at="2014-11-19T17:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginPage -->
+        <test-method status="PASS" signature="testGroupDependentMethod()[pri:0, instance:com.selenium.actions.TestNGAnnotations@1ba92bb]" name="testGroupDependentMethod" duration-ms="0" depends-on-groups="GroupOneTest" started-at="2014-11-19T17:07:11Z" finished-at="2014-11-19T17:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGroupDependentMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.selenium.actions.TestNGAnnotations@1ba92bb]" name="afterTest" is-config="true" duration-ms="0" started-at="2014-11-19T17:07:11Z" finished-at="2014-11-19T17:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="testDependedMethod()[pri:0, instance:com.selenium.actions.TestNGAnnotations@1ba92bb]" name="testDependedMethod" duration-ms="0" started-at="2014-11-19T17:07:11Z" depends-on-methods="com.selenium.actions.TestNGAnnotations.testGroupDependentMethod" finished-at="2014-11-19T17:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDependedMethod -->
+      </class> <!-- com.selenium.actions.TestNGAnnotations -->
+    </test> <!-- LoginPageTest -->
+    <test name="GroupTest" duration-ms="0" started-at="2014-11-19T11:37:11Z" finished-at="2014-11-19T11:37:11Z">
+      <class name="com.selenium.actions.TestNGAnnotations">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.selenium.actions.TestNGAnnotations@1ba92bb]" name="beforeSuite" is-config="true" duration-ms="6" started-at="2014-11-19T17:07:11Z" finished-at="2014-11-19T17:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.selenium.actions.TestNGAnnotations@1ba92bb]" name="afterSuite" is-config="true" duration-ms="0" started-at="2014-11-19T17:07:11Z" finished-at="2014-11-19T17:07:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.selenium.actions.TestNGAnnotations -->
+    </test> <!-- GroupTest -->
+  </suite> <!-- SeleniumRevision -->
+</testng-results>
